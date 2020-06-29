@@ -1,0 +1,144 @@
+.principal{
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.principal-dentro{
+    width: 80%;
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-around;
+    box-shadow: 1px 1px 3px black;
+}
+
+.lateral{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.especialidades{
+    background-color: #4aadd7;
+    height: 100%;
+    width: 20%;
+}
+
+.especialidades-titulo{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    text-justify: distribute-all-lines;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.especialidades-opcoes{
+    height: 210px;
+    width: 100%;
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.especialidade{
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 0.9em;  
+    height: 30px;
+    width: 70%;
+    border-radius: 12px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+
+.especialidade:hover{
+    background-color: #ccd0d2;
+    border-color: white;
+}
+
+.display-medicos{
+    background-color: #ccd0d2;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-medicos-inner{
+    width: 90%;
+    height: 85%;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0.5px 0.5px 2px black;
+    border-radius: 10px;
+    border: none
+}
+
+.perfil-medico{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+
+.perfil-inner{
+    height: 80%;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.foto-perfil{
+    width: 64px;
+    height: 100%;
+    text-align: center;
+    border: 1px solid white;
+    border-right: 1px solid black;
+}
+
+.foto-perfil i{
+    font-size: 4.2em;
+}
+
+.nome-medico{
+    width: 40%;
+    height: 100%;
+}
+
+.nome-medico .descricao{
+    padding: 10px;
+}
+
+.botoes-perfil{
+    width: 52%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.botoes-perfil input{
+    height: 50%;
+    padding: 8px;
+    margin-right: 10px;
+    background-color: #1bafcb;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}

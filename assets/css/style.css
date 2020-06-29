@@ -1,0 +1,390 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.container-dentro {
+    width: 80%;
+    display: flex;
+    max-width: 1280px;
+}
+
+.topo {
+    height: 32px;
+    background-color: #ccd0d2;
+    justify-content: center;
+}
+
+.topo-dentro {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-contato {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.email,
+.telefone i {
+    color: #4aadd7;
+}
+
+.email a {
+    color: #6b6a6a;
+    text-decoration: none;
+}
+
+.telefone span {
+    color: #6b6a6a;
+    text-decoration: none;
+}
+
+.topo-rede-sociais {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo-rede-sociais a {
+    color: #6b6a6a;
+    text-decoration: none;
+}
+
+.menu-logo {
+    justify-content: center;
+    height: 60px;
+}
+
+.dentro-menu-logo {
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.navbar li a {
+    color: #6b6a6a;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-ativo {
+    background-color: #1bafcb;
+    padding: 5px 8px;
+    color: #fff !important;
+}
+
+.main {
+    background-image: url('../images/bg-doctor.png');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 120%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-main {
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-banner {
+    width: 40%;
+    margin-left: 20%;
+    font-family: sans-serif;
+}
+
+.conteudo-banner h1 {
+    color: #7d7d7d;
+    width: 90%;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+
+.conteudo-banner h1 span {
+    color: #1bafcb;
+}
+
+.conteudo-banner p {
+    color: #7d7d7d;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 8px 10px;
+    background-color: #6b6a6a;
+    color: #fff;
+}
+
+.blue {
+    background-color: #1bafcb;
+}
+
+.servicos {
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicos-dentro {
+    justify-content: space-between;
+}
+
+.servicos-dentro .item-servico {
+    height: 380px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos-dentro .item-servico .config-icon {
+    font-size: 4em;
+    margin-bottom: 15px;
+    color: #1bafcb;
+}
+
+.servicos-dentro .item-servico h3 {
+    margin-bottom: 15px;
+    color: #6b6a6a;
+}
+
+.servicos-dentro .item-servico p {
+    margin-bottom: 15px;
+    color: #6b6a6a;
+    text-align: center;
+}
+
+.servicos-dentro .item-servico a {
+    color: #6b6a6a;
+}
+
+.leiamaislink {
+    font-size: 17px;
+    color: #6b6a6a;
+}
+
+.blog {
+    height: 550px;
+    background-color: #eeecec;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-dentro {
+    height: 90px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid #6b6a6a;
+    justify-content: space-between;
+}
+
+.blog-setas {
+    display: flex;
+}
+
+.setas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+    width: 25px;
+    height: 25px;
+    background-color: #FFF;
+    color: #a8a7a7;
+    cursor: pointer;
+}
+
+.blog-postagens {
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-blog-postagem {
+    height: 400px;
+    width: 29%;
+}
+
+.item-blog-postagem h4 {
+    color: #2e2d2d;
+}
+
+.item-blog-postagem img {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+.item-blog-postagem ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    font-size: 0.8em;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.item-blog-postagem li i {
+    color: #1bafcb;
+}
+
+.item-blog-postagem p {
+    margin-bottom: 10px;
+    color: #414040;
+}
+
+.btn-leiamaislink {
+    font-size: 0.8em;
+    background-color: #2c2c2c;
+    color: #ffff;
+    padding: 8px 10px;
+}
+
+.btn-leiamaislink:hover {
+    background-color: #4d4d4d;
+    color: rgb(165, 165, 165);
+}
+
+.rodape {
+    height: 150px;
+    background-color: #727272;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape .sobrenos,
+.redes {
+    width: 25%;
+    height: 70px;
+    margin: 10px 0;
+}
+
+.rodape .sobrenos p {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.rodape h5 {
+    color: #2c2c2c;
+    ;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.rodape .redes {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.rodape .redes a {
+    color: #fff;
+}
+
+.copy {
+    height: 40px;
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media screen and (max-width:360px) {
+    .topo-dentro {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .topo-contato {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .topo-rede-sociais {
+        display: none;
+    }
+    .email,
+    .telefone {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .telefone i {
+        margin: 0 10px !important;
+    }
+    .email i {
+        margin: 0 10px !important;
+    }
+    .topo {
+        height: 40px;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar {
+        display: none;
+    }
+    .conteudo-banner {
+        width: 60%;
+        margin-left: 40%;
+    }
+    .conteudo-banner h1 {
+        width: 100%;
+        font-size: 2em;
+    }
+}
+
+
+/*fim do breakpoint de 360px*/
+
+@media (min-width:480px) {
+    /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}
